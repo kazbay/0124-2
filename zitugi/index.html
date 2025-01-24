@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>単位習得</title>
+    <style>
+        body{
+           /* background-color: ;*/
+        }
+        .contants{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            background-color: rgb(238, 226, 207);
+            width: 800px;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+        }
+        .box{
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        .text{
+            background-color: black;
+            color: aliceblue;
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        .kom{
+            
+        }
+
+
+
+        @media (max-width:767px){
+            body{
+
+            }
+            .contants{
+                grid-template-columns: 1fr 1fr;
+                
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="contants">
+        <div class="box"><p>テキスト1</p></div>
+        <div class="box"><p>テキスト2</p></div>
+        <div class="box"><p>テキスト3</p></div>
+        <div class="box"><p>テキスト4</p></div>
+    </div>
+    <div class="text">
+        文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+    </div>
+    <div>
+        <img src="/img/kapi.webp" alt="カピバラ">
+    </div>
+    <div class="kom">
+        <h3>お名前：<input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10"></h3>
+        <h3>返信を希望する方はチェックしてください：<input type="checkbox"></h3>
+        <h3>メッセージ<br><input type="text" id="name" name="name" required minlength="8" maxlength="16" size="30"></h3>
+        <h3><button class="kom" type="button">送信する</button></a>
+        </ul></h3>
+    </div>
+</body>
+</html>
